@@ -1,6 +1,7 @@
 version: '3.8'
 
-name: ghost
+# Commented to prevent the error "Additional property name is not allowed" when running the docker-compose up command
+# name: ghost
 
 services:
   mysql:
